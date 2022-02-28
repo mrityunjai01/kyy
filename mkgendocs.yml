@@ -1,0 +1,20 @@
+sources_dir: markdown
+templates_dir: markdown/templates
+repo: https://github.com/mrityunjai01/kvy  #link to sources on github
+version: master                               #link to sources on github
+
+pages:
+
+  - page: "a_.md"
+    source: 'a.py'
+    classes:
+      - Baby:
+        - __init__
+        - can_i_cry
+
+  - page: "utils/bigbaby.md"
+    source: 'utils/bigbaby.py'
+    classes:
+      - Bigbaby:
+        - __init__
+        - shouldi
